@@ -1,0 +1,211 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body{
+     background-color: rgb(186	185	185	);
+   
+     
+}
+#centerContainer{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+}
+
+h1{
+     /* width: 100%; */
+}
+
+
+#mainImage{
+     width: 80vw;
+     max-width: 800px;
+     height: 60vh;
+     border: 5px double white;
+     position: relative;
+}
+
+#furniture{
+     width: 100%;
+     height: 100%;
+     position: absolute;
+}
+
+#paint{
+     position: absolute;
+     width: 100%;
+     height: 70%;
+     background-color: yellowgreen;
+     z-index: -1;
+
+}
+
+#carpet{
+     position: absolute;
+     border-top: solid 5px white;
+     width: 100%;
+     height: 30%;
+     background-color: green;
+     z-index: -1;
+     top:70%;
+     
+}
+hr{
+     margin-top: 50px;
+     margin-bottom: 0;
+}
+#contact img{
+     width: 30px;
+     margin: 10px;
+}
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+ul{
+     display: flex;
+     list-style: none;
+     padding: 0;
+     
+}
+li{
+     height: 40px;
+     width: 40px;
+     margin: 2px;
+     border: 1px solid white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: black;
+}
+
+.furniture{
+     width: 80px;
+}
+
+h2{
+     margin-bottom: 0;
+}
+
+.white{
+     background-color: rgb(229	230	228	);
+}
+
+.cream{
+     background-color: rgb(230	217	192	);
+}
+
+.black{
+     background-color: rgb(32	32	32	);
+}
+
+.grey{
+     background-color: rgb(158	162	156	);
+}
+
+.darkBlue{
+     background-color: rgb(40	67	97	);
+}
+.skyBlue{
+     background-color: rgb(178	195	214	);
+}
+.pink{
+     background-color: rgb(207	126	141	);
+}
+.red{
+     background-color: rgb(179	44	39	);
+}
+.darkGreen{
+     background-color: rgb(40	90	83	);
+}
+.lightGreen{
+     background-color: rgb(184	221	199	);
+}
+.lemon{
+     background-color: rgba(229	200	118	);
+}
+.turquoise{
+     background-color: rgb(66	148	160	);
+}
+.purple{
+     background-color: rgb(92	15	117	);
+}
+
+.violet{
+     background-color: rgb(191	186	220	);
+}
+
+#hue1{
+     background-image: linear-gradient(to right, rgb(118	151	142	) , rgb(238	230	128	));
+}
+
+#hue2{
+     background-image: linear-gradient(to right, rgb(102	140	185 ) , rgb(159	237	94	));
+}
+
+#hue3{
+     background-image: linear-gradient(to right, rgb(135	140	173	) , rgb(128	254	172	));
+}
+
+#hue4{
+     background-image: linear-gradient(to right, rgb(136	150	163	) , rgb(153	253	248	));
+}
+
+#hue5{
+     background-image: linear-gradient(to right, rgb(164	135	157	) , rgb(165	235	255	));
+}
+
+#hue6{
+     background-image: linear-gradient(to right, rgb(168	136	141	) , rgb(228	214	255	));
+}
+#hue7{
+     background-image: linear-gradient(to right, rgb(140	135	127	) , rgb(228	199	230 ));
+}
+#hue8{
+     background-image: linear-gradient(to right, rgb(123	144	76	) , rgb(255	170	255	));
+}
+#hue9{
+     background-image: linear-gradient(to right, rgb(145	145	118	) , rgb(255	195	238	));
+}
+#hue10{
+     background-image: linear-gradient(to right, rgb(129	150	123	) , rgb(255	205	173	));
+}
+#hue11{
+     background-image: linear-gradient(to right, rgb(123	151	129	) , rgb(255	215	148	));
+}
+#hue12{
+     background-image: linear-gradient(to right, rgb(150	152	126		) , rgb(255	235	166	));
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
