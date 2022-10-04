@@ -22,6 +22,7 @@
 /*******************************************/
 
 body{
+     font-family: 'Architects Daughter', cursive;
      background-color: rgb(186	185	185	);
    
      
@@ -33,7 +34,7 @@ body{
 }
 
 h1{
-     /* width: 100%; */
+     font-size: 48px;
 }
 
 
@@ -68,7 +69,7 @@ h1{
      background-color: green;
      z-index: -1;
      top:70%;
-     
+
 }
 hr{
      margin-top: 50px;
@@ -209,3 +210,18 @@ h2{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+   .color-picker {
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 10px;
+   }
+
+   .color-preview {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #ccc;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+   }

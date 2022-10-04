@@ -178,3 +178,9 @@ document.querySelector('#hue12').onclick = hue12Furniture;
 // 		<img id="#githubLink
 //contact links//
 // document.querySelector('#instaLink').onclick = url("https://www.instagram.com/codingandlife/");
+
+
+    function updateColor(color) {
+      var colorPreview = document.querySelector('.color-preview');
+      colorPreview.style.backgroundColor = color;
+    }
