@@ -20,9 +20,9 @@
 	<div id="centerContainer">
 		<h1>View Your Aesthetics</h1>
 		<div id="mainImage">
-
-			<img src="./images/livingroom.png" id="furniture" alt="">
-
+			<div class="imageContainer">
+				<img src="./images/livingroom.png" id="furniture" alt="">
+			</div>
 			<div id="paint"></div>
 			<div id="carpet"></div>
 		</div>
@@ -31,22 +31,18 @@
 		<ul>
 			<li class="white" id="whitePaint"></li>
 			<li class="cream" id="creamPaint"></li>
-			<li class="black" id="blackPaint"></li>
 			<li class="grey" id="greyPaint"></li>
 			<li class="darkBlue" id="darkBluePaint"></li>
 			<li class="skyBlue" id="skyBluePaint"></li>
 			<li class="pink" id="pinkPaint"></li>
-			<li class="red" id="redPaint"></li>
 			<li class="darkGreen" id="darkGreenPaint"></li>
 			<li class="lightGreen" id="lightGreenPaint"></li>
 			<li class="lemon" id="lemonPaint"></li>
-			<li class="turquoise" id="turquoisePaint"></li>
-			<li class="purple" id="purplePaint"></li>
 			<li class="violet" id="violetPaint"></li>
-			<div class="color-picker">
-				<div class="color-preview"></div>
-				<input type="color" id="colorInput" onchange="updateColor(this.value)">
-			</div>
+			<li class="color-picker">
+				<!-- <div class="color-preview"></div> -->
+				<input type="color" id="colorInput" placeholder="Select" onchange="updatePaintColor(this.value)"/></li>
+			<!-- </div> -->
 
 			
 		</ul>
@@ -57,18 +53,19 @@
 		<ul>
 			<li class="white" id="whiteCarpet"></li>
 			<li class="cream" id="creamCarpet"></li>
-			<li class="black" id="blackCarpet"></li>
 			<li class="grey" id="greyCarpet"></li>
 			<li class="darkBlue" id="darkBlueCarpet"></li>
 			<li class="skyBlue" id="skyBlueCarpet"></li>
 			<li class="pink" id="pinkCarpet"></li>
-			<li class="red" id="redCarpet"></li>
 			<li class="darkGreen" id="darkGreenCarpet"></li>
 			<li class="lightGreen" id="lightGreenCarpet"></li>
 			<li class="lemon" id="lemonCarpet"></li>
-			<li class="turquoise" id="turquoiseCarpet"></li>
-			<li class="purple" id="purpleCarpet"></li>
-			<li class="violet" id="violetCarpet"></li>	
+			<li class="violet" id="violetCarpet"></li>
+			<li class="color-picker">
+				<!-- <div class="color-preview"></div> -->
+				<input type="color" id="colorInput" placeholder="Select" onchange="updateCarpetColor(this.value)" />
+			</li>
+			<!-- </div> -->
 		</ul>
 
 		<h2>Select Furniture Hues: </h2>

@@ -3,17 +3,13 @@ let changePaint = document.querySelector('#paint').style;
 
 document.querySelector('#whitePaint').onclick = whitePaint;
 document.querySelector('#creamPaint').onclick = creamPaint;
-document.querySelector('#blackPaint').onclick = blackPaint;
 document.querySelector('#greyPaint').onclick = greyPaint;
 document.querySelector('#darkBluePaint').onclick = darkBluePaint;
 document.querySelector('#skyBluePaint').onclick = skyBluePaint;
 document.querySelector('#pinkPaint').onclick = pinkPaint;
-document.querySelector('#redPaint').onclick = redPaint;
 document.querySelector('#darkGreenPaint').onclick = darkGreenPaint;
 document.querySelector('#lightGreenPaint').onclick = lightGreenPaint;
 document.querySelector('#lemonPaint').onclick = lemonPaint;
-document.querySelector('#turquoisePaint').onclick = turquoisePaint;
-document.querySelector('#purplePaint').onclick = purplePaint;
 document.querySelector('#violetPaint').onclick = violetPaint;
 
 function whitePaint(){
@@ -22,9 +18,7 @@ function whitePaint(){
 function creamPaint(){
     changePaint.backgroundColor = 'rgb(230	217	192	)';
 }
-function blackPaint(){
-    changePaint.backgroundColor = 'rgb(32	32	32	)';
-}
+
 function greyPaint(){
     changePaint.backgroundColor = 'rgb(158	162	156	)';
 }
@@ -37,9 +31,6 @@ function skyBluePaint(){
 function pinkPaint(){
     changePaint.backgroundColor = 'rgb(207	126	141	)';
 }
-function redPaint(){
-    changePaint.backgroundColor = 'rgb(179	44	39	)';
-}
 function darkGreenPaint(){
     changePaint.backgroundColor = 'rgb(40	90	83	)';
 }
@@ -48,12 +39,6 @@ function lightGreenPaint(){
 }
 function lemonPaint(){
     changePaint.backgroundColor = 'rgba(229	200	118	)';
-}
-function turquoisePaint(){
-    changePaint.backgroundColor = 'rgb(66	148	160	)';
-}
-function purplePaint(){
-    changePaint.backgroundColor = 'rgb(92	15	117	)';
 }
 function violetPaint(){
     changePaint.backgroundColor = 'rgb(191	186	220	)';
@@ -64,17 +49,13 @@ let changeCarpet = document.querySelector('#carpet').style;
 
 document.querySelector('#whiteCarpet').onclick = whiteCarpet;
 document.querySelector('#creamCarpet').onclick = creamCarpet;
-document.querySelector('#blackCarpet').onclick = blackCarpet;
 document.querySelector('#greyCarpet').onclick = greyCarpet;
 document.querySelector('#darkBlueCarpet').onclick = darkBlueCarpet;
 document.querySelector('#skyBlueCarpet').onclick = skyBlueCarpet;
 document.querySelector('#pinkCarpet').onclick = pinkCarpet;
-document.querySelector('#redCarpet').onclick = redCarpet;
 document.querySelector('#darkGreenCarpet').onclick = darkGreenCarpet;
 document.querySelector('#lightGreenCarpet').onclick = lightGreenCarpet;
 document.querySelector('#lemonCarpet').onclick = lemonCarpet;
-document.querySelector('#turquoiseCarpet').onclick = turquoiseCarpet;
-document.querySelector('#purpleCarpet').onclick = purpleCarpet;
 document.querySelector('#violetCarpet').onclick = violetCarpet;
 
 function whiteCarpet(){
@@ -83,9 +64,7 @@ function whiteCarpet(){
 function creamCarpet(){
     changeCarpet.backgroundColor = 'rgb(230	217	192	)';
 }
-function blackCarpet(){
-    changeCarpet.backgroundColor = 'rgb(32	32	32	)';
-}
+
 function greyCarpet(){
     changeCarpet.backgroundColor = 'rgb(158	162	156	)';
 }
@@ -98,9 +77,6 @@ function skyBlueCarpet(){
 function pinkCarpet(){
     changeCarpet.backgroundColor = 'rgb(207	126	141	)';
 }
-function redCarpet(){
-    changeCarpet.backgroundColor = 'rgb(179	44	39	)';
-}
 function darkGreenCarpet(){
     changeCarpet.backgroundColor = 'rgb(40	90	83	)';
 }
@@ -109,12 +85,6 @@ function lightGreenCarpet(){
 }
 function lemonCarpet(){
     changeCarpet.backgroundColor = 'rgba(229	200	118	)';
-}
-function turquoiseCarpet(){
-    changeCarpet.backgroundColor = 'rgb(66	148	160	)';
-}
-function purpleCarpet(){
-    changeCarpet.backgroundColor = 'rgb(92	15	117	)';
 }
 function violetCarpet(){
     changeCarpet.backgroundColor = 'rgb(191	186	220	)';
@@ -180,7 +150,15 @@ document.querySelector('#hue12').onclick = hue12Furniture;
 // document.querySelector('#instaLink').onclick = url("https://www.instagram.com/codingandlife/");
 
 
-    function updateColor(color) {
-      var colorPreview = document.querySelector('.color-preview');
-      colorPreview.style.backgroundColor = color;
+    function updatePaintColor(color) {
+      let colorPreview = document.querySelector('#colorInput');
+        colorPreview.style.backgroundColor = color;
+        changePaint.backgroundColor = color;
+        
+    }
+    function updateCarpetColor(color) {
+      let colorPreview = document.querySelector('#colorInput');
+        colorPreview.style.backgroundColor = color;
+        changeCarpet.backgroundColor = color;
+        
     }

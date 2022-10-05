@@ -30,18 +30,20 @@ body{
 #centerContainer{
      display: flex;
      align-items: center;
+     /* justify-content: center; */
      flex-direction: column;
 }
 
 h1{
      font-size: 48px;
+     text-align: center;
 }
 
 
 #mainImage{
      width: 80vw;
      max-width: 800px;
-     height: 60vh;
+     height: 30vh;
      border: 5px double white;
      position: relative;
 }
@@ -97,6 +99,10 @@ ul{
      display: flex;
      list-style: none;
      padding: 0;
+     display: flex;
+     justify-content: center;
+     /* align-items: ; */
+     flex-wrap: wrap;
      
 }
 li{
@@ -104,10 +110,8 @@ li{
      width: 40px;
      margin: 2px;
      border: 1px solid white;
-     display: flex;
-     justify-content: center;
-     align-items: center;
      color: black;
+   
 }
 
 .furniture{
@@ -126,10 +130,6 @@ h2{
      background-color: rgb(230	217	192	);
 }
 
-.black{
-     background-color: rgb(32	32	32	);
-}
-
 .grey{
      background-color: rgb(158	162	156	);
 }
@@ -143,9 +143,7 @@ h2{
 .pink{
      background-color: rgb(207	126	141	);
 }
-.red{
-     background-color: rgb(179	44	39	);
-}
+
 .darkGreen{
      background-color: rgb(40	90	83	);
 }
@@ -154,12 +152,6 @@ h2{
 }
 .lemon{
      background-color: rgba(229	200	118	);
-}
-.turquoise{
-     background-color: rgb(66	148	160	);
-}
-.purple{
-     background-color: rgb(92	15	117	);
 }
 
 .violet{
@@ -211,17 +203,21 @@ h2{
 /* ADDITIONAL STYLES
 /*******************************************/
 
-   .color-picker {
-        display: inline-block;
-        vertical-align: middle;
-        margin-bottom: 10px;
-   }
-
-   .color-preview {
+   /* .color-preview {
         width: 40px;
         height: 40px;
         border: 1px solid #ccc;
         display: inline-block;
         vertical-align: middle;
         margin-right: 10px;
+   } */
+
+#colorInput{
+     border: none;
+     width: 100%;
+     height: 100%;
+     background-color: #bbff99;
+     background-image: linear-gradient(319deg, #bbff99 0%, #ffec99 37%, #ff9999 100%); ;
    }
+
+   
