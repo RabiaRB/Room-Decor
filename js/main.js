@@ -143,12 +143,6 @@ document.querySelector('#hue12').onclick = hue12Furniture;
     }
     
 
-// "#instaLink" src="../instagram-logo-041EABACE1-seeklogo.com.png" alt="insta-icon">
-// 		<img id="twitterLink" src="../twitter-logo-vector-png-clipart-1.png" alt="twitter-icon">
-// 		<img id="#githubLink
-//contact links//
-// document.querySelector('#instaLink').onclick = url("https://www.instagram.com/codingandlife/");
-
 
     function updatePaintColor(color) {
       let colorPreview = document.querySelector('#colorInput');

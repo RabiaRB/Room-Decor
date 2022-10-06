@@ -23,14 +23,12 @@
 
 body{
      font-family: 'Architects Daughter', cursive;
-     background-color: rgb(186	185	185	);
-   
+     background-color: rgb(254,251,234); 
      
 }
 #centerContainer{
      display: flex;
      align-items: center;
-     /* justify-content: center; */
      flex-direction: column;
 }
 
@@ -44,7 +42,7 @@ h1{
      width: 80vw;
      max-width: 800px;
      height: 30vh;
-     border: 5px double white;
+     border: 5px double grey;
      position: relative;
 }
 
@@ -100,8 +98,8 @@ ul{
      list-style: none;
      padding: 0;
      display: flex;
+     align-items: center;
      justify-content: center;
-     /* align-items: ; */
      flex-wrap: wrap;
      
 }
@@ -109,13 +107,17 @@ li{
      height: 40px;
      width: 40px;
      margin: 2px;
-     border: 1px solid white;
+     border: 1px solid grey;
      color: black;
+     display: flex;
+     align-items: center;
+     justify-content: center;
    
 }
 
 .furniture{
      width: 80px;
+     
 }
 
 h2{
@@ -212,6 +214,7 @@ h2{
         margin-right: 10px;
    } */
 
+
 #colorInput{
      border: none;
      width: 100%;
@@ -220,4 +223,10 @@ h2{
      background-image: linear-gradient(319deg, #bbff99 0%, #ffec99 37%, #ff9999 100%); ;
    }
 
-   
+@media screen and (min-width: 500px){
+
+     #mainImage{
+          height: 60vh;
+     }
+
+}
