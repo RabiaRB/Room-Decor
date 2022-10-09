@@ -156,3 +156,9 @@ document.querySelector('#hue12').onclick = hue12Furniture;
         changeCarpet.backgroundColor = color;
         
     }
+    const resetButton = document.getElementById('resetButton');
+
+
+    resetButton.addEventListener('click', function() {
+      location.reload();
+    });
