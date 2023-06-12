@@ -6,13 +6,15 @@ This project is a simple demonstration of how to manipulate the color of a room 
 
 **Link to project:** [Room Aesthetics](https://roomaesthetics.netlify.app/)
 
+
 **Mobile View**
-![roomaesthetics netlify app_(iPhone 12 Pro)](https://github.com/RabiaRB/Room-Decor/assets/58439957/94e95cf3-139a-4377-bfde-efa7101f715f)
+![roomaesthetics netlify app_(iPhone 12 Pro)](https://github.com/RabiaRB/Room-Decor/assets/58439957/94e95cf3-139a-4377-bfde-efa7101f715f) {:width="100px"}
 
 **Desktop View**
-![roomaesthetics netlify app_](https://github.com/RabiaRB/Room-Decor/assets/58439957/269bc208-bcbb-444d-a947-60aae58135ad)
+![roomaesthetics netlify app_](https://github.com/RabiaRB/Room-Decor/assets/58439957/269bc208-bcbb-444d-a947-60aae58135ad) {:width="100px"}
 
-![RoomAesthetics](https://github.com/RabiaRB/Room-Decor/assets/58439957/b1e74d84-7912-4ff1-acf9-e12f7a75d7ec)
+**Working**
+![RoomAesthetics](https://github.com/RabiaRB/Room-Decor/assets/58439957/b1e74d84-7912-4ff1-acf9-e12f7a75d7ec) {:width="300px"}
 
 
 # Usage
