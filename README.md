@@ -8,7 +8,7 @@ This project is a simple demonstration of how to manipulate the color of a room 
 
 
 **Mobile View**
-![roomaesthetics netlify app_(iPhone 12 Pro)](https://github.com/RabiaRB/Room-Decor/assets/58439957/94e95cf3-139a-4377-bfde-efa7101f715f) {:width="100px"}
+![roomaesthetics netlify app_(iPhone 12 Pro)](https://github.com/RabiaRB/Room-Decor/assets/58439957/94e95cf3-139a-4377-bfde-efa7101f715f =100x) {:width="100px"}
 
 **Desktop View**
 ![roomaesthetics netlify app_](https://github.com/RabiaRB/Room-Decor/assets/58439957/269bc208-bcbb-444d-a947-60aae58135ad) {:width="100px"}
