@@ -48,9 +48,9 @@ HTML
 CSS
 JavaScript
 
-# Credits
+## Contact
 
-The project was created by [Rabia Butt]. Feel free to contribute and improve upon it!
+For any questions or inquiries, please contact the project maintainer at [Rabia Butt](mailto:air.bay.x@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
 
 
 
